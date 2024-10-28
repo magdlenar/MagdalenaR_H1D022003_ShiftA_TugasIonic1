@@ -10,8 +10,6 @@ file halaman utama terletak di folder src/app/folder/ dengan nama file home.page
 Buka file home.page.html dan tambahkan komponen Ionic.
 Ion Header dan Toolbar:
 
-html
-Salin kode
 <ion-header>
   <ion-toolbar color="primary">
     <ion-title>
@@ -22,8 +20,6 @@ Salin kode
 Bagian ini menciptakan header berwarna primary dengan judul Halaman Utama.
 Ion Content dengan Card Profil:
 
-html
-Salin kode
 <ion-content class="ion-padding">
   <div class="profile-section">
     <ion-card class="profile-card">
@@ -41,16 +37,12 @@ Class ion-padding memberi padding pada konten untuk tampilan yang lebih rapi.
 4. Tambahkan Komponen Ionic pada folder.page.scss
 .profile-section: Mengatur teks agar berada di tengah dan menambahkan padding di sekelilingnya.
 
-scss
-Salin kode
 .profile-section {
   text-align: center;
   padding: 20px;
 }
 .profile-card: Mengatur latar belakang card, menambahkan border-radius agar card lebih membulat, menambahkan padding dalam card, dan mengatur warna teks di dalamnya.
 
-scss
-Salin kode
 .profile-card {
   background-color: #f0f4ff;
   border-radius: 12px;
@@ -59,8 +51,6 @@ Salin kode
 }
 ion-card-title: Mengatur ukuran font dan ketebalan teks untuk judul dalam card agar lebih besar dan lebih menonjol.
 
-scss
-Salin kode
 ion-card-title {
   font-size: 1.8em;
   font-weight: bold;
@@ -68,23 +58,17 @@ ion-card-title {
 }
 p: Mengatur warna teks paragraf dan menambahkan margin di bawahnya.
 
-scss
-Salin kode
 p {
   color: #555;
   margin-bottom: 20px;
 }
 .buttons ion-button: Menambahkan margin pada tombol-tombol yang berada di dalam elemen dengan class buttons agar tidak terlalu berdekatan.
 
-scss
-Salin kode
 .buttons ion-button {
   margin: 5px;
 }
 .about-section: Menambahkan gaya untuk bagian about dengan latar belakang warna terang, padding, text-align center, margin-top untuk jarak dari elemen di atasnya, dan border-radius.
 
-scss
-Salin kode
 .about-section {
   background-color: #f9f9f9;
   padding: 20px;
@@ -94,8 +78,6 @@ Salin kode
 }
 h2: Mengatur warna, ukuran font, dan margin bawah untuk elemen h2.
 
-scss
-Salin kode
 h2 {
   color: #333;
   font-size: 1.5em;
